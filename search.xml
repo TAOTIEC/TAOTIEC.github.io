@@ -8,6 +8,6 @@
   <entry>
     <title><![CDATA[MD_test]]></title>
     <url>%2F2019%2F05%2F20%2FTEST%2F</url>
-    <content type="text"><![CDATA[1插入图片 2.插入链接 aliyungithub 3.强调 斜体粗体 4.表格 1 2 第一列 一列二格 第二列 二列二格 第三列 三列二格 5.代码 12345#include&lt;stdio.h&gt;int main()&#123; printf(&quot;helloworld!\n&quot;);&#125; 6.列表 first second third 7.流程图 st=&gt;start: Start:&gt;https://www.jpjbp.com/io=&gt;inputoutput: verificationop=&gt;operation: Your Operationcond=&gt;condition: Yes or No?sub=&gt;subroutine: Your Subroutinee=&gt;end st-&gt;io-&gt;op-&gt;condcond(yes)-&gt;econd(no)-&gt;sub-&gt;io]]></content>
+    <content type="text"><![CDATA[1插入图片 2.插入链接 aliyungithub 3.强调 斜体粗体 4.表格 1 2 第一列 一列二格 第二列 二列二格 第三列 三列二格 5.代码 12345#include&lt;stdio.h&gt;int main()&#123; printf(&quot;helloworld!\n&quot;);&#125; 6.列表 first second third 7.字体设置用html语言实现 设置居中 设置颜色 设置大小 设置颜色大小]]></content>
   </entry>
 </search>
