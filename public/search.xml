@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8"?>
+<search>
+  <entry>
+    <title><![CDATA[funny day]]></title>
+    <url>%2F2019%2F05%2F21%2Ffunny-day%2F</url>
+    <content type="text"><![CDATA[I wish myself happy every day]]></content>
+      <categories>
+        <category>日志</category>
+      </categories>
+      <tags>
+        <tag>日志</tag>
+      </tags>
+  </entry>
+  <entry>
+    <title><![CDATA[MD_test]]></title>
+    <url>%2F2019%2F05%2F20%2FTEST%2F</url>
+    <content type="text"><![CDATA[1插入图片 2.插入链接 aliyungithub 3.强调 斜体粗体 4.表格 1 2 第一列 一列二格 第二列 二列二格 第三列 三列二格 5.代码 12345#include&lt;stdio.h&gt;int main()&#123; printf(&quot;helloworld!\n&quot;);&#125; 6.列表 first second third 7.字体设置用html语言实现 设置居中 设置颜色 设置大小 设置颜色大小]]></content>
+      <categories>
+        <category>MarkDown语法</category>
+      </categories>
+      <tags>
+        <tag>MarkDown语法</tag>
+      </tags>
+  </entry>
+</search>
