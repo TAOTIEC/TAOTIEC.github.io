@@ -6,7 +6,7 @@
   <link href="/atom.xml" rel="self"/>
   
   <link href="https://TAOTIEC.github.io/"/>
-  <updated>2019-05-23T17:46:42.622Z</updated>
+  <updated>2019-05-27T05:42:13.656Z</updated>
   <id>https://TAOTIEC.github.io/</id>
   
   <author>
@@ -17,9 +17,35 @@
   <generator uri="http://hexo.io/">Hexo</generator>
   
   <entry>
+    <title>搭建博客的经历</title>
+    <link href="https://TAOTIEC.github.io/2019/05/27/%E6%90%AD%E5%BB%BA%E5%8D%9A%E5%AE%A2%E7%9A%84%E7%BB%8F%E5%8E%86/"/>
+    <id>https://TAOTIEC.github.io/2019/05/27/搭建博客的经历/</id>
+    <published>2019-05-26T16:23:44.000Z</published>
+    <updated>2019-05-27T05:42:13.656Z</updated>
+    
+    <summary type="html">
+    
+      
+      
+        
+        
+          &lt;p&gt;写在前面：老哥提出让我搭建个人技术博客（hexo + github）是在18年，时至19年的5.25左右完成了。刚提出来时，我莽撞地跟着帖子画瓢，却毫无解决问题的能力便放弃了，定为半途放弃！&lt;br&gt;Time and tide wait for no
+        
+      
+    
+    </summary>
+    
+      <category term="Experience" scheme="https://TAOTIEC.github.io/categories/Experience/"/>
+    
+    
+      <category term="Memorable" scheme="https://TAOTIEC.github.io/tags/Memorable/"/>
+    
+  </entry>
+  
+  <entry>
     <title>funny day</title>
-    <link href="https://TAOTIEC.github.io/2019/05/21/funny-day/"/>
-    <id>https://TAOTIEC.github.io/2019/05/21/funny-day/</id>
+    <link href="https://TAOTIEC.github.io/2019/05/21/Bestwish/"/>
+    <id>https://TAOTIEC.github.io/2019/05/21/Bestwish/</id>
     <published>2019-05-21T01:41:22.000Z</published>
     <updated>2019-05-23T17:46:42.622Z</updated>
     
@@ -45,8 +71,8 @@
   
   <entry>
     <title>MD_test</title>
-    <link href="https://TAOTIEC.github.io/2019/05/20/TEST/"/>
-    <id>https://TAOTIEC.github.io/2019/05/20/TEST/</id>
+    <link href="https://TAOTIEC.github.io/2019/05/20/Markdown%E8%AF%AD%E6%B3%95/"/>
+    <id>https://TAOTIEC.github.io/2019/05/20/Markdown语法/</id>
     <published>2019-05-20T08:16:44.350Z</published>
     <updated>2019-05-23T17:51:11.988Z</updated>
     

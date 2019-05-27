@@ -1,8 +1,19 @@
 <?xml version="1.0" encoding="utf-8"?>
 <search>
   <entry>
+    <title><![CDATA[搭建博客的经历]]></title>
+    <url>%2F2019%2F05%2F27%2F%E6%90%AD%E5%BB%BA%E5%8D%9A%E5%AE%A2%E7%9A%84%E7%BB%8F%E5%8E%86%2F</url>
+    <content type="text"><![CDATA[写在前面：老哥提出让我搭建个人技术博客（hexo + github）是在18年，时至19年的5.25左右完成了。刚提出来时，我莽撞地跟着帖子画瓢，却毫无解决问题的能力便放弃了，定为半途放弃！Time and tide wait for no man。19.5.8重新拿出来并决心搞定这件事，写到这儿，我自知我的无能力和爱拖沓两个主要致命缺点！ 这篇博文主要从搭建博客站点（不详写，会推荐网帖）和解决遇见的问题两方面去概述。 一、搭建：1.安装Git工具和Node.js。在（cmd）terminal（位于Nodejs的安装目录）中”npm install -g hexo”安装hexo2.新建工作目录（右击，Git bash here）。”hexo init”初始化，”npm install”安装依赖包，至此本地博客搭建好了，如果上述一切顺利，再hexo g &amp;&amp; hexo s（http://localhost:4000）本地静态网页便可浏览了3.部署到Github上。此时，你需要有Github账号和一个域名（我用的阿里云），再将二者相关联（此处是难点，下述“搭建个人技术博客”有说明）。是因为一方面github有提供服务器的作用，也提供一个难记的规范域名(我的:https://TAOTIEC.github.io),另一方面购买的域名容易让人记住(www.machanghong.net)。 推荐帖：搭建个人技术博客实用的MarkDown语法MD用来写博文适合不过了如何购买阿里云域名注册Github账号及简单使用 二、问题：如果仔细按照网帖，并理解的一步步操作，没有太多问题，也就能成功搭建博客，并理解其中的思路。呃，理想和现实不一样。各有各的经历，而我就遇见了折腾我的那些问题1.我的域名被盗号囧 我时隔近一年去使用的域名（购买一年的时长），结果被人盗号了。网上找到了解决办法（帖子链接不提供了，我一时找不见），大致是能与github的开发人员（老外，英语）通过邮件方式联系，根据他的要求来证明你是域名的owner即可，嘿嘿建议安装有道词典（英语渣渣的感悟），期间你不用担心你发中文邮件给他。2.”npm install” “npm init” 这两个指令输入有顺序，在这个步骤出现问题（没有package.json包），网上有解决的帖子，主要解决点是输入”hexo init -f”（以网帖为标准）3.头像不显示(next 主题)当我按照“如何个性化配置我心爱的博客时，在添加avatar参数时，由于个人原因而导致对图片路径把握不准确，图像也就不能正常显示，结果在此卡了很久，终究解决了便很开心。4.hexo d出现的问题部署到github（hexo d）上，需要登录账户（就是github的用户名和密码），可我呢？压根没注意这些内容，一路潇洒按着“Enter”键，问题出现很久才意识到并解决了。 至此，静的动的博客也都搞定了，那就来↓ ↓ ↓个性化打造心爱的博客： 个性化配置next主题的教程 写在最后：针对我自己无能力和爱拖沓的主要缺点来说：根据需要，带着思考去好好利用网帖解决问题，提升能力毕竟，我的菜的很普通，我出现的问题都是很普遍的问题，网上一大片的解决教程。emmm，期待和欢迎大家能来我的博客（升级ing）Martin’s Blog，Thanks]]></content>
+      <categories>
+        <category>Experience</category>
+      </categories>
+      <tags>
+        <tag>Memorable</tag>
+      </tags>
+  </entry>
+  <entry>
     <title><![CDATA[funny day]]></title>
-    <url>%2F2019%2F05%2F21%2Ffunny-day%2F</url>
+    <url>%2F2019%2F05%2F21%2FBestwish%2F</url>
     <content type="text"><![CDATA[I wish myself happy every day]]></content>
       <categories>
         <category>日志</category>
@@ -13,7 +24,7 @@
   </entry>
   <entry>
     <title><![CDATA[MD_test]]></title>
-    <url>%2F2019%2F05%2F20%2FTEST%2F</url>
+    <url>%2F2019%2F05%2F20%2FMarkdown%E8%AF%AD%E6%B3%95%2F</url>
     <content type="text"><![CDATA[1插入图片 2.插入链接 aliyungithub 3.强调 斜体粗体 4.表格 1 2 第一列 一列二格 第二列 二列二格 第三列 三列二格 5.代码 12345#include&lt;stdio.h&gt;int main()&#123; printf(&quot;helloworld!\n&quot;);&#125; 6.列表 first second third 7.字体设置用html语言实现 设置居中 设置颜色 设置大小 设置颜色大小]]></content>
       <categories>
         <category>MarkDown语法</category>
