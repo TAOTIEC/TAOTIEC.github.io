@@ -6,7 +6,7 @@
   <link href="/atom.xml" rel="self"/>
   
   <link href="https://TAOTIEC.github.io/"/>
-  <updated>2019-05-27T05:42:13.656Z</updated>
+  <updated>2019-06-03T15:56:07.372Z</updated>
   <id>https://TAOTIEC.github.io/</id>
   
   <author>
@@ -17,9 +17,35 @@
   <generator uri="http://hexo.io/">Hexo</generator>
   
   <entry>
+    <title>给树莓派(model:3B)装系统后连接VNC图形界面</title>
+    <link href="https://TAOTIEC.github.io/2019/06/03/Install-system-for-Raspberry-pie/"/>
+    <id>https://TAOTIEC.github.io/2019/06/03/Install-system-for-Raspberry-pie/</id>
+    <published>2019-06-03T14:19:32.000Z</published>
+    <updated>2019-06-03T15:56:07.372Z</updated>
+    
+    <summary type="html">
+    
+      
+      
+        
+        
+          &lt;p&gt;​        写在前面：老哥让我买个&lt;font color=&quot;FF0000&quot;&gt;&lt;strong&gt;树莓派&lt;/strong&gt;&lt;/font&gt;（能装系统的小电脑，在上面写程序，跑程序，比单片机厉害些，嘻嘻）玩玩（Linux
+        
+      
+    
+    </summary>
+    
+      <category term="Experience" scheme="https://TAOTIEC.github.io/categories/Experience/"/>
+    
+    
+      <category term="Memorable" scheme="https://TAOTIEC.github.io/tags/Memorable/"/>
+    
+  </entry>
+  
+  <entry>
     <title>搭建博客的经历</title>
-    <link href="https://TAOTIEC.github.io/2019/05/27/%E6%90%AD%E5%BB%BA%E5%8D%9A%E5%AE%A2%E7%9A%84%E7%BB%8F%E5%8E%86/"/>
-    <id>https://TAOTIEC.github.io/2019/05/27/搭建博客的经历/</id>
+    <link href="https://TAOTIEC.github.io/2019/05/27/The%20experience%20of%20building%20a%20blog/"/>
+    <id>https://TAOTIEC.github.io/2019/05/27/The experience of building a blog/</id>
     <published>2019-05-26T16:23:44.000Z</published>
     <updated>2019-05-27T05:42:13.656Z</updated>
     
@@ -71,8 +97,8 @@
   
   <entry>
     <title>MD_test</title>
-    <link href="https://TAOTIEC.github.io/2019/05/20/Markdown%E8%AF%AD%E6%B3%95/"/>
-    <id>https://TAOTIEC.github.io/2019/05/20/Markdown语法/</id>
+    <link href="https://TAOTIEC.github.io/2019/05/20/MD_grammar/"/>
+    <id>https://TAOTIEC.github.io/2019/05/20/MD_grammar/</id>
     <published>2019-05-20T08:16:44.350Z</published>
     <updated>2019-05-23T17:51:11.988Z</updated>
     
