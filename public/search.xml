@@ -1,107 +1,47 @@
 <?xml version="1.0" encoding="utf-8"?>
-<search> 
-  
-  
-    
-    <entry>
-      <title>给树莓派(model:3B)装系统后连接VNC图形界面</title>
-      <link href="/2019/06/03/Install-system-for-Raspberry-pie/"/>
-      <url>/2019/06/03/Install-system-for-Raspberry-pie/</url>
-      
-        <content type="html"><![CDATA[<p>​        写在前面：老哥让我买个<font color="FF0000"><strong>树莓派</strong></font>（能装系统的小电脑，在上面写程序，跑程序，比单片机厉害些，嘻嘻）玩玩（Linux C,编程爱好），买了放抽屉里近三年，终于在19.5.28号左右拿出来玩玩，再基于老哥推了VX公众号<font color="FF0000">“树莓派爱好者基地”</font>（绝对适合新手，强推），我又买了外壳、散热片、电源线配件和8GmicroSD卡（合计：板子400 + 配件100 RMB）。时至今日（19.06.03<del>菜的真实囧</del>）搞定了第一个目标：装系统。上图：</p><p><img src="https://raw.githubusercontent.com/TAOTIEC/TAOTIEC.github.io/master/images/Mypie.jpg" alt="Mypie.jpg"></p><p>切正题：这篇博文是写我给pie装sapbrian系统的经历</p><blockquote><p>步骤:（下述仅是我的情况，上述VX公众号里介绍的步骤很简单，因为本质上这个事情也很简单）</p><p>(说下我的难题：蹭同学的<em>校园网</em>和手机数据给笔记本提供网络环境，没有pie–<em>显示屏</em>)</p></blockquote><ol><li><p>将raspbrian–system烧写到（&gt;8G）SD卡中，再将卡插到pie–卡槽。</p></li><li><p>查看pie–IP地址（<em>百度有很多方法</em>）。因为是校园网，路由器行不通，便先借用了朋友的显示屏(HDMI)、键盘(USB)和鼠标(USB)插在pie上，再用手机给pie(WIFI连接)提供网络，最后在显示屏(terminal)上输入ifconfig成功得到pie–IP如图：</p><p><img src="https://raw.githubusercontent.com/TAOTIEC/TAOTIEC.github.io/master/images/PI_ip.png" alt="pie--IP.png"></p></li><li><p>网线连接笔记本和pie,手机热点给笔记本和pie提供网络环境以保证二者在同一局域网段中，打开电源开关。</p></li><li><p>putty软件输入pie–IP，会跳转到命令行界面，再登录pie账号(pi)密码(sapberry)跳到，若想要用vnc图形界面等等相关教程操作在上述强推的VX公众号<font color="FF0000">“树莓派爱好者基地”</font>都有教程（视频标题关键字：ssh,VNC），跟着一步一步很简单。</p></li></ol><blockquote><p>个人背景及其给我造成的问题：</p></blockquote><ul><li>本想细节描述我的“惨况”，suanle，我用的<em>校园网</em>，不能使用路由器去查看pie的IP地址，权限在校园网管理那儿，我莫得囧~</li><li>网上下了残缺的sapbrian-system烧写到SD卡里，结果后续查看pie-IP地址上浪费了很多时间。简单描述成功烧写系统的状况:烧写系统的软件要好几分钟才能系统烧写到SD卡中，当准备好的SD卡插入pie–卡槽并接通电源，<u>（model:3B）<em>pie–电源处会有红灯一直亮起，绿灯无规律闪烁</em></u>(偷偷说下，这一点的内容都是我从JD客服那儿得知的，觉得很有必要写出来，毕竟这个坑了我很多时间）。</li></ul><p>结尾：后续会从“树莓派爱好者基地”、咨询大佬和网络等等方式了解更多些pie–知识，进一步根据配件情况、感兴趣的项目和读懂项目这三点，写下一次的博文。</p>]]></content>
-      
-      
+<search>
+  <entry>
+    <title><![CDATA[给树莓派(model:3B)装系统后连接VNC图形界面]]></title>
+    <url>%2F2019%2F06%2F03%2FInstall-system-for-Raspberry-pie%2F</url>
+    <content type="text"><![CDATA[​ 写在前面：老哥让我买个树莓派（能装系统的小电脑，在上面写程序，跑程序，比单片机厉害些，嘻嘻）玩玩（Linux C,编程爱好），买了放抽屉里近三年，终于在19.5.28号左右拿出来玩玩，再基于老哥推了VX公众号“树莓派爱好者基地”（绝对适合新手，强推），我又买了外壳、散热片、电源线配件和8GmicroSD卡（合计：板子400 + 配件100 RMB）。时至今日（19.06.03菜的真实囧）搞定了第一个目标：装系统。上图： 切正题：这篇博文是写我给pie装sapbrian系统的经历 步骤:（下述仅是我的情况，上述VX公众号里介绍的步骤很简单，因为本质上这个事情也很简单） (说下我的难题：蹭同学的校园网和手机数据给笔记本提供网络环境，没有pie–显示屏) 将raspbrian–system烧写到（&gt;8G）SD卡中，再将卡插到pie–卡槽。 查看pie–IP地址（百度有很多方法）。因为是校园网，路由器行不通，便先借用了朋友的显示屏(HDMI)、键盘(USB)和鼠标(USB)插在pie上，再用手机给pie(WIFI连接)提供网络，最后在显示屏(terminal)上输入ifconfig成功得到pie–IP如图： 网线连接笔记本和pie,手机热点给笔记本和pie提供网络环境以保证二者在同一局域网段中，打开电源开关。 putty软件输入pie–IP，会跳转到命令行界面，再登录pie账号(pi)密码(sapberry)跳到，若想要用vnc图形界面等等相关教程操作在上述强推的VX公众号“树莓派爱好者基地”都有教程（视频标题关键字：ssh,VNC），跟着一步一步很简单。 个人背景及其给我造成的问题： 本想细节描述我的“惨况”，suanle，我用的校园网，不能使用路由器去查看pie的IP地址，权限在校园网管理那儿，我莫得囧~ 网上下了残缺的sapbrian-system烧写到SD卡里，结果后续查看pie-IP地址上浪费了很多时间。简单描述成功烧写系统的状况:烧写系统的软件要好几分钟才能系统烧写到SD卡中，当准备好的SD卡插入pie–卡槽并接通电源，（model:3B）pie–电源处会有红灯一直亮起，绿灯无规律闪烁(偷偷说下，这一点的内容都是我从JD客服那儿得知的，觉得很有必要写出来，毕竟这个坑了我很多时间）。 结尾：后续会从“树莓派爱好者基地”、咨询大佬和网络等等方式了解更多些pie–知识，进一步根据配件情况、感兴趣的项目和读懂项目这三点，写下一次的博文。]]></content>
       <categories>
-          
-          <category> Experience </category>
-          
+        <category>Experience</category>
       </categories>
-      
-      
-        <tags>
-            
-            <tag> Memorable </tag>
-            
-        </tags>
-      
-    </entry>
-    
-    
-    
-    <entry>
-      <title>搭建博客的经历</title>
-      <link href="/2019/05/27/The%20experience%20of%20building%20a%20blog/"/>
-      <url>/2019/05/27/The%20experience%20of%20building%20a%20blog/</url>
-      
-        <content type="html"><![CDATA[<p>写在前面：老哥提出让我搭建个人技术博客（hexo + github）是在18年，时至19年的5.25左右完成了。刚提出来时，我莽撞地跟着帖子画瓢，却毫无解决问题的能力便放弃了，定为半途放弃！<br>Time and tide wait for no man。<br>19.5.8重新拿出来并决心搞定这件事，写到这儿，我自知我的无能力和爱拖沓两个主要致命缺点！</p><p>这篇博文主要从搭建博客站点（不详写，会推荐网帖）和解决遇见的问题两方面去概述。</p><blockquote><p>一、搭建：<br>1.安装<em>Git工具</em>和<em>Node.js</em>。在（cmd）terminal（位于Nodejs的安装目录）中”npm install -g hexo”安装hexo<br>2.新建工作目录（右击，Git bash here）。”hexo init”初始化，”npm install”安装依赖包，至此本地博客搭建好了，如果上述一切顺利，再hexo g &amp;&amp; hexo s（<a href="http://localhost:4000）本地静态网页便可浏览了" target="_blank" rel="noopener">http://localhost:4000）本地静态网页便可浏览了</a><br>3.部署到Github上。此时，你需要有Github账号和一个域名（我用的阿里云），再将二者相关联（<font color="FF0000">此处是难点，下述“搭建个人技术博客”有说明</font>）。是因为一方面github有提供服务器的作用，也提供一个难记的规范域名(我的:<a href="https://TAOTIEC.github.io),另一方面购买的域名容易让人记住(www.machanghong.net)。">https://TAOTIEC.github.io),另一方面购买的域名容易让人记住(www.machanghong.net)。</a></p></blockquote><p><strong>推荐帖：</strong><br><a href="https://www.jianshu.com/p/05096f07b34c" target="_blank" rel="noopener">搭建个人技术博客</a><br><a href="https://www.jianshu.com/p/f3147a804368" target="_blank" rel="noopener">实用的MarkDown语法</a>MD用来写博文适合不过了<br><a href="https://jingyan.baidu.com/article/da1091fb73d05d027849d632.html" target="_blank" rel="noopener">如何购买阿里云域名</a><br><a href="https://blog.csdn.net/weixin_42693104/article/details/82584849" target="_blank" rel="noopener">注册Github账号及简单使用</a></p><blockquote><p>二、问题：<br>如果仔细按照网帖，并理解的一步步操作，没有太多问题，也就能成功搭建博客，并理解其中的思路。<br>呃，理想和现实不一样。各有各的经历，而我就遇见了折腾我的那些问题<br>1.<em>我的域名被盗号</em>囧我时隔近一年去使用的域名（购买一年的时长），结果被人盗号了。网上找到了解决办法（帖子链接不提供了，我一时找不见），大致是能与github的开发人员（老外，英语）通过邮件方式联系，根据他的要求来证明你是域名的owner即可，嘿嘿建议安装有道词典（英语渣渣的感悟），期间你不用担心你发中文邮件给他。<br>2.”npm install” “npm init” 这两个指令输入有顺序，在这个步骤出现问题（没有package.json包），网上有解决的帖子，主要解决点是输入”hexo init -f”（以网帖为标准）<br>3.头像不显示(next 主题)<br>当我按照“如何个性化配置我心爱的博客时，在添加<em>avatar</em>参数时，由于个人原因而导致对图片路径把握不准确，图像也就不能正常显示，结果在此卡了很久，终究解决了便很开心。<br>4.hexo d出现的问题<br><img src="https://raw.githubusercontent.com/TAOTIEC/TAOTIEC.github.io/master/images/hexo_d.png" alt="hexo_d.png"><br>部署到github（hexo d）上，需要登录账户（就是github的用户名和密码），可我呢？压根没注意这些内容，一路潇洒按着“Enter”键，问题出现很久才意识到并解决了。</p></blockquote><p>至此，静的动的博客也都搞定了，那就来↓ ↓ ↓<br><strong><center>个性化打造心爱的博客：</center></strong></p><p><a href="https://www.jianshu.com/p/f054333ac9e6" target="_blank" rel="noopener">个性化配置next主题的教程</a></p><p>写在最后：<br>针对我自己无能力和爱拖沓的主要缺点来说：根据需要，带着思考去好好利用网帖解决问题，提升能力<br>毕竟，我的菜的很普通，我出现的问题都是很普遍的问题，网上一大片的解决教程。<br>emmm，期待和欢迎大家能来我的博客（升级ing）<a href="https://www.machanghong.net.cn/" target="_blank" rel="noopener">Martin’s Blog</a>，Thanks</p>]]></content>
-      
-      
+      <tags>
+        <tag>Memorable</tag>
+      </tags>
+  </entry>
+  <entry>
+    <title><![CDATA[搭建博客的经历]]></title>
+    <url>%2F2019%2F05%2F27%2FThe%20experience%20of%20building%20a%20blog%2F</url>
+    <content type="text"><![CDATA[写在前面：老哥提出让我搭建个人技术博客（hexo + github）是在18年，时至19年的5.25左右完成了。刚提出来时，我莽撞地跟着帖子画瓢，却毫无解决问题的能力便放弃了，定为半途放弃！Time and tide wait for no man。19.5.8重新拿出来并决心搞定这件事，写到这儿，我自知我的无能力和爱拖沓两个主要致命缺点！ 这篇博文主要从搭建博客站点（不详写，会推荐网帖）和解决遇见的问题两方面去概述。 一、搭建：1.安装Git工具和Node.js。在（cmd）terminal（位于Nodejs的安装目录）中”npm install -g hexo”安装hexo2.新建工作目录（右击，Git bash here）。”hexo init”初始化，”npm install”安装依赖包，至此本地博客搭建好了，如果上述一切顺利，再hexo g &amp;&amp; hexo s（http://localhost:4000）本地静态网页便可浏览了3.部署到Github上。此时，你需要有Github账号和一个域名（我用的阿里云），再将二者相关联（此处是难点，下述“搭建个人技术博客”有说明）。是因为一方面github有提供服务器的作用，也提供一个难记的规范域名(我的:https://TAOTIEC.github.io),另一方面购买的域名容易让人记住(www.machanghong.net)。 推荐帖：搭建个人技术博客实用的MarkDown语法MD用来写博文适合不过了如何购买阿里云域名注册Github账号及简单使用 二、问题：如果仔细按照网帖，并理解的一步步操作，没有太多问题，也就能成功搭建博客，并理解其中的思路。呃，理想和现实不一样。各有各的经历，而我就遇见了折腾我的那些问题1.我的域名被盗号囧 我时隔近一年去使用的域名（购买一年的时长），结果被人盗号了。网上找到了解决办法（帖子链接不提供了，我一时找不见），大致是能与github的开发人员（老外，英语）通过邮件方式联系，根据他的要求来证明你是域名的owner即可，嘿嘿建议安装有道词典（英语渣渣的感悟），期间你不用担心你发中文邮件给他。2.”npm install” “npm init” 这两个指令输入有顺序，在这个步骤出现问题（没有package.json包），网上有解决的帖子，主要解决点是输入”hexo init -f”（以网帖为标准）3.头像不显示(next 主题)当我按照“如何个性化配置我心爱的博客时，在添加avatar参数时，由于个人原因而导致对图片路径把握不准确，图像也就不能正常显示，结果在此卡了很久，终究解决了便很开心。4.hexo d出现的问题部署到github（hexo d）上，需要登录账户（就是github的用户名和密码），可我呢？压根没注意这些内容，一路潇洒按着“Enter”键，问题出现很久才意识到并解决了。 至此，静的动的博客也都搞定了，那就来↓ ↓ ↓个性化打造心爱的博客： 个性化配置next主题的教程 写在最后：针对我自己无能力和爱拖沓的主要缺点来说：根据需要，带着思考去好好利用网帖解决问题，提升能力毕竟，我的菜的很普通，我出现的问题都是很普遍的问题，网上一大片的解决教程。emmm，期待和欢迎大家能来我的博客（升级ing）Martin’s Blog，Thanks]]></content>
       <categories>
-          
-          <category> Experience </category>
-          
+        <category>Experience</category>
       </categories>
-      
-      
-        <tags>
-            
-            <tag> Memorable </tag>
-            
-        </tags>
-      
-    </entry>
-    
-    
-    
-    <entry>
-      <title>funny day</title>
-      <link href="/2019/05/21/Bestwish/"/>
-      <url>/2019/05/21/Bestwish/</url>
-      
-        <content type="html"><![CDATA[<a id="more"></a><p>I wish myself happy every day</p>]]></content>
-      
-      
+      <tags>
+        <tag>Memorable</tag>
+      </tags>
+  </entry>
+  <entry>
+    <title><![CDATA[funny day]]></title>
+    <url>%2F2019%2F05%2F21%2FBestwish%2F</url>
+    <content type="text"><![CDATA[I wish myself happy every day]]></content>
       <categories>
-          
-          <category> 日志 </category>
-          
+        <category>日志</category>
       </categories>
-      
-      
-        <tags>
-            
-            <tag> 日志 </tag>
-            
-        </tags>
-      
-    </entry>
-    
-    
-    
-    <entry>
-      <title>MD_test</title>
-      <link href="/2019/05/20/MD_grammar/"/>
-      <url>/2019/05/20/MD_grammar/</url>
-      
-        <content type="html"><![CDATA[<blockquote><p>1插入图片</p></blockquote><p><img src="http://zh.mweb.im/asset/img/set-up-git.gif" alt="GitHub set up"></p><blockquote><p>2.插入链接</p></blockquote><p><a href="http://www.machanghong.net.cn" target="_blank" rel="noopener">aliyun</a><br><a href="http://github.com" target="_blank" rel="noopener">github</a></p><blockquote><p>3.强调</p></blockquote><p><em>斜体</em><br><strong>粗体</strong></p><blockquote><p>4.表格</p></blockquote><table><thead><tr><th>1</th><th>2</th></tr></thead><tbody><tr><td>第一列</td><td>一列二格</td></tr><tr><td>第二列</td><td>二列二格</td></tr><tr><td>第三列</td><td>三列二格</td></tr></tbody></table><blockquote><p>5.代码</p></blockquote><figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br></pre></td><td class="code"><pre><span class="line">#include&lt;stdio.h&gt;</span><br><span class="line">int main()</span><br><span class="line">&#123;</span><br><span class="line">printf(&quot;helloworld!\n&quot;);</span><br><span class="line">&#125;</span><br></pre></td></tr></table></figure><blockquote><p>6.列表</p></blockquote><ol><li>first</li><li>second</li><li>third</li></ol><blockquote><p>7.字体设置<br>用html语言实现</p></blockquote><center>设置居中    <font color="FF0000"> 设置颜色 </font>    <font size="6"> 设置大小 </font>    <font color="FF0000" size="5"> 设置颜色大小 </font></center>]]></content>
-      
-      
+      <tags>
+        <tag>日志</tag>
+      </tags>
+  </entry>
+  <entry>
+    <title><![CDATA[MD_test]]></title>
+    <url>%2F2019%2F05%2F20%2FMD_grammar%2F</url>
+    <content type="text"><![CDATA[1插入图片 2.插入链接 aliyungithub 3.强调 斜体粗体 4.表格 1 2 第一列 一列二格 第二列 二列二格 第三列 三列二格 5.代码 12345#include&lt;stdio.h&gt;int main()&#123; printf(&quot;helloworld!\n&quot;);&#125; 6.列表 first second third 7.字体设置用html语言实现 设置居中 设置颜色 设置大小 设置颜色大小]]></content>
       <categories>
-          
-          <category> MarkDown语法 </category>
-          
+        <category>MarkDown语法</category>
       </categories>
-      
-      
-        <tags>
-            
-            <tag> MarkDown语法 </tag>
-            
-        </tags>
-      
-    </entry>
-    
-    
-  
-  
+      <tags>
+        <tag>MarkDown语法</tag>
+      </tags>
+  </entry>
 </search>
