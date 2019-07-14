@@ -1,69 +1,245 @@
 <?xml version="1.0" encoding="utf-8"?>
-<search>
-  <entry>
-    <title><![CDATA[Slow evacuation game]]></title>
-    <url>%2F2019%2F06%2F20%2FSlow-evacuation-game%2F</url>
-    <content type="text"><![CDATA[​ 从初三时开始接触网络游戏，上瘾费时等我都必须承认，但也不全是坏事儿，比如改善我的心态、脾气和多个话题与朋友聊天（这些在我看来的好事儿，大家能苟同更好，嘻嘻）。至今22岁左右，玩过CF穿越火线、LOL英雄联盟、刺激战场、地下城与勇士、飞车、手游王者荣耀等等。为了“证明”没有白玩游戏，今天就围绕玩LOL和王者农药来写点啥，嘻嘻。 ​ 先写点映象深刻掺杂happy or not的事儿，①高中那会刚接触打撸，班级内部约战，找十个人去网吧5V5不愁没人，不用说我肯定参与。当时，第一局我玩的蒙多辅助，adc是vn吧，最后我蒙多站到最后并拆掉对面水晶，后续几局都输了。那时，关于游戏里面的知识懂的不多，但很快乐，因为大家齐心协力都想赢对面。②我辅助的adc同学因为我挂机对他对线发育造成影响就恶语相向，我忍受不了。于是，我们的友谊结束了！③ig夺冠！④王者荣耀认识了个网友，我们一起玩了很久并于今天打达到我的王者目标，有机会还能面基下，毕竟一起玩的很开心，已然是好朋友了。回忆完了，那下面就聊聊“感触”。 ​ 我玩的打撸和王者两个游戏很相似，一个网游另一个手游罢了。玩了这么久，感情和认识或多或少有了不少。①先简单说说我对这俩游戏的认识，里面需要五个玩家，分别是上单、打野、中单和下路双人路，即射手和辅助，无可厚非都很重要，需要承担不同的任务；而共同的目标是把对方守护的水晶摧毁掉，这里面就涉及攻防问题了，有英雄角色、装备、对线和团战等等方面的攻防，主要来说下装备吧，有物理和法术两种攻击装相应也就针对的防备装，就说一点点其他不细说了。②既然有五个位置，那我常玩是什么呢？因我个人刚开始是朋友带着玩，接触的是辅助位，后面陆续玩了射手、中路、上单、甚至打野。所以常玩的是辅助和射手位。聊聊我对这两个位置的认识,射手位“站位要好，不能被对方怼死，然后疯狂输出伤害即可”。辅助位“保护好己方输出位，做好视野，提供有用信号，因不需要打出各种操作去输出，便有精力给队友提供对面的动向信息”。上述①②简单说了游戏本身，总结来说我理解的游戏攻略是保护输出位输出，及时支援，知晓对面动向以及控制爆发减员对方。③最后简单说说由游戏映射到生活的内容，打撸和王者玩了四五年吧，曾经打撸想着升到30级（满级），也有想过上分等等，但时间和游戏天赋有限也就没后文了，最近基于玩了这么多年的这类游戏就想着在王者农药搞个王者段位就慢慢退游（Slow evacuation game）吧！因此，也就有了想写这篇博文的打算。在这个游戏里面见得人很多，觉得主要映射出不同性格和不同心态的不同表现和不同结果的现象。这也正是我想写的，那些心态和性格不算好的玩家，大部分都defeat，相反那些性格好和心态好的玩家，提升了技术和段位，交到了朋友，游戏特别开心和享受。记得我先前打撸时辅助的那个射手朋友就是性格不算好的，太看重游戏和以自我为中心，段位大概也就一直是白银黄金水平吧，游戏玩的也不是那么快乐等，对比到我一开始玩王者也和他差不多性格，自认为自己玩过打撸比其他人有基础、厉害等，属于自大型，结果就是没上段，游戏不快乐，后面我改善了性格和心态，从那些游戏队友的结果去联想自己的游戏处境和生活处境，便控制自己遇事不生气不着急并想办法解决，为了不能影响到我整个的生活状态，硬是不能解决也不纠结该放弃就放弃（这件事是经过考虑后才打算放弃，肯定不能轻言放弃），毕竟生活不止眼前的一件事。能开玩笑和被开玩笑，深刻认识到自己是个普通人（会犯错犯傻，也能改改错改善自我）、取我所需的技能以及熟能生巧（practice make prefect）。亲近家人亲戚和朋友，善待值得善待的人与事etc，不啰嗦了，就这些吧。顺便分享下我王者农药上王者的图片： ​ 写在最后，健康游戏，认真生活。]]></content>
+<search> 
+  
+  
+    
+    <entry>
+      <title>有序链表</title>
+      <link href="/2019/07/13/%E6%9C%89%E5%BA%8F%E9%93%BE%E8%A1%A8/"/>
+      <url>/2019/07/13/%E6%9C%89%E5%BA%8F%E9%93%BE%E8%A1%A8/</url>
+      
+        <content type="html"><![CDATA[<h1 id="实现有序链表"><a href="#实现有序链表" class="headerlink" title="实现有序链表"></a>实现有序链表</h1><p><strong>理解</strong>：</p><p>1.p节点可能在有序链表最前面、最后面和中间位置插入，那么插入位置怎么实现？？？</p><p>2.用两个节点(p插完的顺序：pr-&gt;p-&gt;pk)去卡住p节点的插入位置</p><p>3.根据不同情况，使用头插法、尾插法和中间插入去完成插入工作即可</p><p><strong>核心代码</strong>：</p><figure class="highlight c++"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br><span class="line">9</span><br><span class="line">10</span><br><span class="line">11</span><br><span class="line">12</span><br><span class="line">13</span><br><span class="line">14</span><br><span class="line">15</span><br><span class="line">16</span><br><span class="line">17</span><br><span class="line">18</span><br><span class="line">19</span><br><span class="line">20</span><br><span class="line">21</span><br><span class="line">22</span><br><span class="line">23</span><br><span class="line">24</span><br><span class="line">25</span><br><span class="line">26</span><br><span class="line">27</span><br><span class="line">28</span><br></pre></td><td class="code"><pre><span class="line"><span class="class"><span class="keyword">struct</span> <span class="title">node</span> *<span class="title">pk</span> = <span class="title">NULL</span>;</span> <span class="comment">//指向 有序 链表中 第一个比新节点大的 节点。pk本质也是节点</span></span><br><span class="line"><span class="class"><span class="keyword">struct</span> <span class="title">node</span> *<span class="title">pr</span> = <span class="title">NULL</span>;</span> <span class="comment">//指向pk前面的节点</span></span><br><span class="line">pk = first;<span class="comment">//first是指向链表的第一个节点的头指针</span></span><br><span class="line"><span class="keyword">while</span>(pk)</span><br><span class="line">&#123;</span><br><span class="line">    <span class="keyword">if</span>(pk-&gt;data &gt; p-&gt;data)</span><br><span class="line">    &#123;</span><br><span class="line">        <span class="keyword">break</span>;<span class="comment">//1.找到了p插入的位置了</span></span><br><span class="line">    &#125;</span><br><span class="line">    pr = pk;</span><br><span class="line">    pk = pk-&gt;next;</span><br><span class="line">&#125;</span><br><span class="line"><span class="comment">//2.根据情况插入 p节点</span></span><br><span class="line"><span class="keyword">if</span>(pk == <span class="literal">NULL</span>)<span class="comment">//遍历完，都没找到合适的pk节点。尾插法</span></span><br><span class="line">&#123;</span><br><span class="line">    p = last-&gt;next;</span><br><span class="line">    last = p;</span><br><span class="line">&#125;</span><br><span class="line"><span class="keyword">else</span> <span class="keyword">if</span>(pk == first)<span class="comment">//有序的第一个节点就比 p大。头插法</span></span><br><span class="line">&#123;</span><br><span class="line">    p-&gt;next = first;</span><br><span class="line">    first = p;</span><br><span class="line">&#125;</span><br><span class="line"><span class="keyword">else</span><span class="comment">//中间插入</span></span><br><span class="line">&#123;</span><br><span class="line">    pr-&gt;next = p;</span><br><span class="line">    p-&gt;next = pk;</span><br><span class="line">&#125;</span><br></pre></td></tr></table></figure><p><strong>理解过程图：</strong></p><p><img src="D:%5CMyBlog%5Cpublic%5Cimages%5C%E6%9C%89%E5%BA%8F%E9%93%BE%E8%A1%A8.png" alt="有序链表.png"></p>]]></content>
+      
+      
       <categories>
-        <category>Game</category>
+          
+          <category> CPP_链表 </category>
+          
       </categories>
-      <tags>
-        <tag>Game</tag>
-      </tags>
-  </entry>
-  <entry>
-    <title><![CDATA[专业知识的拓展]]></title>
-    <url>%2F2019%2F06%2F06%2FDevelopment-of-professional-knowledge%2F</url>
-    <content type="text"><![CDATA[​ 写在前面：下述内容主要涉及计算机网络专业的相关基础知识，是我从网上或书上copy过来或进行总结，纯属为增强个人的知识。若有侵权的地方请您发邮件至1131020145@qq.com；若还有错误地方，也请您能指出来，我一并修改，谢谢~！记录的内容很杂乱，请见谅！、 ​ SSH（Secure Shell）,是建立在应用层基础上的安全协议。专为远程登录回话和其他网络服务提供安全性的协议。利用SSH协议可以有效防止远程管理过程中的信息泄露问题。适应多种操作系统。原文]]></content>
+      
+      
+        <tags>
+            
+            <tag> CPP </tag>
+            
+        </tags>
+      
+    </entry>
+    
+    
+    
+    <entry>
+      <title>Calculator-v2.0</title>
+      <link href="/2019/07/12/Calculator-v2-0/"/>
+      <url>/2019/07/12/Calculator-v2-0/</url>
+      
+        <content type="html"><![CDATA[<p>`SeqStack NumStack;    //数字栈<br>    SeqStack OprStack;    //运算符栈</p><figure class="highlight cpp"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br><span class="line">9</span><br><span class="line">10</span><br><span class="line">11</span><br><span class="line">12</span><br><span class="line">13</span><br><span class="line">14</span><br><span class="line">15</span><br><span class="line">16</span><br><span class="line">17</span><br></pre></td><td class="code"><pre><span class="line"><span class="comment">//1.遍历字符串，字符放相对应栈</span></span><br><span class="line"><span class="keyword">int</span> Num = <span class="number">0</span>;<span class="comment">//操作数变量，多个字符合成操作数</span></span><br><span class="line"><span class="keyword">for</span>(<span class="keyword">int</span> i = <span class="number">0</span>; i &lt; express.size(); i++) <span class="comment">//123+32</span></span><br><span class="line">&#123;</span><br><span class="line"><span class="keyword">if</span>( Calculator::isDigit(express[i]) ) <span class="comment">//当前为数字字符</span></span><br><span class="line">&#123;</span><br><span class="line">Num = Num * <span class="number">10</span> + express[i] - <span class="string">'0'</span>;</span><br><span class="line">&#125;</span><br><span class="line"><span class="keyword">else</span> <span class="keyword">if</span>( Calculator::isOperate(express[i]) )<span class="comment">//当前为运算符字符</span></span><br><span class="line">&#123;</span><br><span class="line">OprStack.push(express[i]);<span class="comment">//char型的(运算符)字符 进入了 int型的运算符栈</span></span><br><span class="line"><span class="built_in">cout</span> &lt;&lt; <span class="string">"运算符: "</span> &lt;&lt; express[i] &lt;&lt; <span class="string">" 入OprStack\n"</span>;</span><br><span class="line">&#125;</span><br><span class="line">NumStack.push(Num);</span><br><span class="line"><span class="built_in">cout</span> &lt;&lt; <span class="string">"操作数: "</span> &lt;&lt; Num &lt;&lt; <span class="string">" 入NumStack\n"</span>;</span><br><span class="line">&#125;</span><br><span class="line"><span class="built_in">cout</span> &lt;&lt; <span class="string">"不同字符进到相应的栈里面\n"</span>;`</span><br></pre></td></tr></table></figure><p>问题</p>]]></content>
+      
+      
       <categories>
-        <category>Expand</category>
+          
+          <category> CPP_栈 </category>
+          
       </categories>
-      <tags>
-        <tag>Expand</tag>
-      </tags>
-  </entry>
-  <entry>
-    <title><![CDATA[给树莓派(model:3B)装系统后连接VNC图形界面]]></title>
-    <url>%2F2019%2F06%2F03%2FInstall-system-for-Raspberry-pie%2F</url>
-    <content type="text"><![CDATA[​ 写在前面：老哥让我买个树莓派（能装系统的小电脑，在上面写程序，跑程序，比单片机厉害些，嘻嘻）玩玩（Linux C,编程爱好），买了放抽屉里近三年，终于在19.5.28号左右拿出来玩玩，再基于老哥推了VX公众号“树莓派爱好者基地”（绝对适合新手，强推），我又买了外壳、散热片、电源线配件和8GmicroSD卡（合计：板子400 + 配件100 RMB）。时至今日（19.06.03菜的真实囧）搞定了第一个目标：装系统。上图： 切正题：这篇博文是写我给pie装sapbrian系统的经历 步骤:（下述仅是我的情况，上述VX公众号里介绍的步骤很简单，因为本质上这个事情也很简单） (说下我的难题：蹭同学的校园网和手机数据给笔记本提供网络环境，没有pie–显示屏) 将raspbrian–system烧写到（&gt;8G）SD卡中，再将卡插到pie–卡槽。 查看pie–IP地址（百度有很多方法）。因为是校园网，路由器行不通，便先借用了朋友的显示屏(HDMI)、键盘(USB)和鼠标(USB)插在pie上，再用手机给pie(WIFI连接)提供网络，最后在显示屏(terminal)上输入ifconfig成功得到pie–IP如图： 网线连接笔记本和pie,手机热点给笔记本和pie提供网络环境以保证二者在同一局域网段中，打开电源开关。 putty软件输入pie–IP，会跳转到命令行界面，再登录pie账号(pi)密码(sapberry)跳到，若想要用vnc图形界面等等相关教程操作在上述强推的VX公众号“树莓派爱好者基地”都有教程（视频标题关键字：ssh,VNC），跟着一步一步很简单。 个人背景及其给我造成的问题： 本想细节描述我的“惨况”，suanle，我用的校园网，不能使用路由器去查看pie的IP地址，权限在校园网管理那儿，我莫得囧~ 网上下了残缺的sapbrian-system烧写到SD卡里，结果后续查看pie-IP地址上浪费了很多时间。简单描述成功烧写系统的状况:烧写系统的软件要好几分钟才能系统烧写到SD卡中，当准备好的SD卡插入pie–卡槽并接通电源，（model:3B）pie–电源处会有红灯一直亮起，绿灯无规律闪烁(偷偷说下，这一点的内容都是我从JD客服那儿得知的，觉得很有必要写出来，毕竟这个坑了我很多时间）。 结尾：后续会从“树莓派爱好者基地”、咨询大佬和网络等等方式了解更多些pie–知识，进一步根据配件情况、感兴趣的项目和读懂项目这三点，写下一次的博文。]]></content>
+      
+      
+        <tags>
+            
+            <tag> CPP </tag>
+            
+        </tags>
+      
+    </entry>
+    
+    
+    
+    <entry>
+      <title>MD_test</title>
+      <link href="/2019/07/01/MD_grammar/"/>
+      <url>/2019/07/01/MD_grammar/</url>
+      
+        <content type="html"><![CDATA[<blockquote><p>1插入图片</p></blockquote><p><img src="http://zh.mweb.im/asset/img/set-up-git.gif" alt="GitHub set up"></p><blockquote><p>2.插入链接</p></blockquote><p><a href="http://www.machanghong.net.cn" target="_blank" rel="noopener">aliyun</a><br><a href="http://github.com" target="_blank" rel="noopener">github</a></p><blockquote><p>3.强调</p></blockquote><p><em>斜体</em><br><strong>粗体</strong></p><blockquote><p>4.表格</p></blockquote><table><thead><tr><th>1</th><th>2</th></tr></thead><tbody><tr><td>第一列</td><td>一列二格</td></tr><tr><td>第二列</td><td>二列二格</td></tr><tr><td>第三列</td><td>三列二格</td></tr></tbody></table><blockquote><p>5.代码</p></blockquote><figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br></pre></td><td class="code"><pre><span class="line">#include&lt;stdio.h&gt;</span><br><span class="line">int main()</span><br><span class="line">&#123;</span><br><span class="line">printf(&quot;helloworld!\n&quot;);</span><br><span class="line">&#125;</span><br></pre></td></tr></table></figure><blockquote><p>6.列表</p></blockquote><ol><li>first</li><li>second</li><li>third</li></ol><blockquote><p>7.字体设置<br>用html语言实现</p></blockquote><center>设置居中    <font color="FF0000"> 设置颜色 </font>    <font size="6"> 设置大小 </font>    <font color="FF0000" size="5"> 设置颜色大小 </font></center>]]></content>
+      
+      
       <categories>
-        <category>Experience</category>
+          
+          <category> MarkDown语法 </category>
+          
       </categories>
-      <tags>
-        <tag>Memorable</tag>
-      </tags>
-  </entry>
-  <entry>
-    <title><![CDATA[搭建博客的经历]]></title>
-    <url>%2F2019%2F05%2F27%2FThe%20experience%20of%20building%20a%20blog%2F</url>
-    <content type="text"><![CDATA[写在前面：老哥提出让我搭建个人技术博客（hexo + github）是在18年，时至19年的5.25左右完成了。刚提出来时，我莽撞地跟着帖子画瓢，却毫无解决问题的能力便放弃了，定为半途放弃！Time and tide wait for no man。19.5.8重新拿出来并决心搞定这件事，写到这儿，我自知我的无能力和爱拖沓两个主要致命缺点！ 这篇博文主要从搭建博客站点（不详写，会推荐网帖）和解决遇见的问题两方面去概述。 一、搭建：1.安装Git工具和Node.js。在（cmd）terminal（位于Nodejs的安装目录）中”npm install -g hexo”安装hexo2.新建工作目录（右击，Git bash here）。”hexo init”初始化，”npm install”安装依赖包，至此本地博客搭建好了，如果上述一切顺利，再hexo g &amp;&amp; hexo s（http://localhost:4000）本地静态网页便可浏览了3.部署到Github上。此时，你需要有Github账号和一个域名（我用的阿里云），再将二者相关联（此处是难点，下述“搭建个人技术博客”有说明）。是因为一方面github有提供服务器的作用，也提供一个难记的规范域名(我的:https://TAOTIEC.github.io),另一方面购买的域名容易让人记住(www.machanghong.net)。 推荐帖：搭建个人技术博客实用的MarkDown语法MD用来写博文适合不过了如何购买阿里云域名注册Github账号及简单使用 二、问题：如果仔细按照网帖，并理解的一步步操作，没有太多问题，也就能成功搭建博客，并理解其中的思路。呃，理想和现实不一样。各有各的经历，而我就遇见了折腾我的那些问题1.我的域名被盗号囧 我时隔近一年去使用的域名（购买一年的时长），结果被人盗号了。网上找到了解决办法（帖子链接不提供了，我一时找不见），大致是能与github的开发人员（老外，英语）通过邮件方式联系，根据他的要求来证明你是域名的owner即可，嘿嘿建议安装有道词典（英语渣渣的感悟），期间你不用担心你发中文邮件给他。2.”npm install” “npm init” 这两个指令输入有顺序，在这个步骤出现问题（没有package.json包），网上有解决的帖子，主要解决点是输入”hexo init -f”（以网帖为标准）3.头像不显示(next 主题)当我按照“如何个性化配置我心爱的博客时，在添加avatar参数时，由于个人原因而导致对图片路径把握不准确，图像也就不能正常显示，结果在此卡了很久，终究解决了便很开心。4.hexo d出现的问题部署到github（hexo d）上，需要登录账户（就是github的用户名和密码），可我呢？压根没注意这些内容，一路潇洒按着“Enter”键，问题出现很久才意识到并解决了。 至此，静的动的博客也都搞定了，那就来↓ ↓ ↓个性化打造心爱的博客： 个性化配置next主题的教程 写在最后：针对我自己无能力和爱拖沓的主要缺点来说：根据需要，带着思考去好好利用网帖解决问题，提升能力毕竟，我的菜的很普通，我出现的问题都是很普遍的问题，网上一大片的解决教程。emmm，期待和欢迎大家能来我的博客（升级ing）Martin’s Blog，Thanks]]></content>
+      
+      
+        <tags>
+            
+            <tag> MarkDown语法 </tag>
+            
+        </tags>
+      
+    </entry>
+    
+    
+    
+    <entry>
+      <title>Hello World</title>
+      <link href="/2019/07/01/hello-world/"/>
+      <url>/2019/07/01/hello-world/</url>
+      
+        <content type="html"><![CDATA[<p>Welcome to <a href="https://hexo.io/" target="_blank" rel="noopener">Hexo</a>! This is your very first post. Check <a href="https://hexo.io/docs/" target="_blank" rel="noopener">documentation</a> for more info. If you get any problems when using Hexo, you can find the answer in <a href="https://hexo.io/docs/troubleshooting.html" target="_blank" rel="noopener">troubleshooting</a> or you can ask me on <a href="https://github.com/hexojs/hexo/issues" target="_blank" rel="noopener">GitHub</a>.</p><h2 id="Quick-Start"><a href="#Quick-Start" class="headerlink" title="Quick Start"></a>Quick Start</h2><h3 id="Create-a-new-post"><a href="#Create-a-new-post" class="headerlink" title="Create a new post"></a>Create a new post</h3><figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">$ hexo new <span class="string">"My New Post"</span></span><br></pre></td></tr></table></figure><p>More info: <a href="https://hexo.io/docs/writing.html" target="_blank" rel="noopener">Writing</a></p><h3 id="Run-server"><a href="#Run-server" class="headerlink" title="Run server"></a>Run server</h3><figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">$ hexo server</span><br></pre></td></tr></table></figure><p>More info: <a href="https://hexo.io/docs/server.html" target="_blank" rel="noopener">Server</a></p><h3 id="Generate-static-files"><a href="#Generate-static-files" class="headerlink" title="Generate static files"></a>Generate static files</h3><figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">$ hexo generate</span><br></pre></td></tr></table></figure><p>More info: <a href="https://hexo.io/docs/generating.html" target="_blank" rel="noopener">Generating</a></p><h3 id="Deploy-to-remote-sites"><a href="#Deploy-to-remote-sites" class="headerlink" title="Deploy to remote sites"></a>Deploy to remote sites</h3><figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">$ hexo deploy</span><br></pre></td></tr></table></figure><p>More info: <a href="https://hexo.io/docs/deployment.html" target="_blank" rel="noopener">Deployment</a></p>]]></content>
+      
+      
+      
+    </entry>
+    
+    
+    
+    <entry>
+      <title>Only To Girl I LOVE</title>
+      <link href="/2019/06/22/Only-To-Girl-I-LOVE/"/>
+      <url>/2019/06/22/Only-To-Girl-I-LOVE/</url>
+      
+        <content type="html"><![CDATA[<script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script><div id="hbe-security">  <div class="hbe-input-container">  <input type="password" class="hbe-form-control" id="pass" placeholder="Please enter the password to read the blog." />    <label for="pass">Please enter the password to read the blog.</label>    <div class="bottom-line"></div>  </div></div><div id="decryptionError" style="display: none;">Incorrect Password!</div><div id="noContentError" style="display: none;">No content to display!</div><div id="encrypt-blog" style="display:none">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</div><script src="/lib/crypto-js.js"></script><script src="/lib/blog-encrypt.js"></script><link href="/css/blog-encrypt.css" rel="stylesheet" type="text/css">]]></content>
+      
+      
       <categories>
-        <category>Experience</category>
+          
+          <category> Only </category>
+          
       </categories>
-      <tags>
-        <tag>Memorable</tag>
-      </tags>
-  </entry>
-  <entry>
-    <title><![CDATA[funny day]]></title>
-    <url>%2F2019%2F05%2F21%2FBestwish%2F</url>
-    <content type="text"><![CDATA[I wish myself happy every day]]></content>
+      
+      
+        <tags>
+            
+            <tag> Only </tag>
+            
+        </tags>
+      
+    </entry>
+    
+    
+    
+    <entry>
+      <title>Slow evacuation game</title>
+      <link href="/2019/06/20/Slow-evacuation-game/"/>
+      <url>/2019/06/20/Slow-evacuation-game/</url>
+      
+        <content type="html"><![CDATA[<p>​        从初三时开始接触网络游戏，上瘾费时等我都必须承认，但也不全是坏事儿，比如改善我的心态、脾气和多个话题与朋友聊天（这些在我看来的好事儿，大家能苟同更好，嘻嘻）。至今22岁左右，玩过CF穿越火线、LOL英雄联盟、刺激战场、地下城与勇士、飞车、手游王者荣耀等等。为了“证明”没有白玩游戏，今天就围绕玩LOL和王者农药来写点啥，嘻嘻。</p><p>​        先写点映象深刻掺杂happy or not的事儿，①高中那会刚接触打撸，班级内部约战，找十个人去网吧5V5不愁没人，不用说我肯定参与。当时，第一局我玩的蒙多辅助，adc是vn吧，最后我蒙多站到最后并拆掉对面水晶，后续几局都输了。那时，关于游戏里面的知识懂的不多，但很快乐，因为大家齐心协力都想赢对面。②我辅助的adc同学因为我挂机对他对线发育造成影响就恶语相向，我忍受不了。于是，我们的友谊结束了！③ig夺冠！④王者荣耀认识了个网友，我们一起玩了很久并于今天打达到我的王者目标，有机会还能面基下，毕竟一起玩的很开心，已然是好朋友了。回忆完了，那下面就聊聊“感触”。</p><p>​        我玩的打撸和王者两个游戏很相似，一个网游另一个手游罢了。玩了这么久，感情和认识或多或少有了不少。<font color="FF0000">①</font>先简单说说我对这俩游戏的认识，里面需要五个玩家，分别是上单、打野、中单和下路双人路，即射手和辅助，无可厚非都很重要，需要承担不同的任务；而共同的目标是把对方守护的水晶摧毁掉，这里面就涉及攻防问题了，有英雄角色、装备、对线和团战等等方面的攻防，主要来说下装备吧，有物理和法术两种攻击装相应也就针对的防备装，就说一点点其他不细说了。<font color="FF0000">②</font>既然有五个位置，那我常玩是什么呢？因我个人刚开始是朋友带着玩，接触的是辅助位，后面陆续玩了射手、中路、上单、甚至打野。所以常玩的是辅助和射手位。聊聊我对这两个位置的认识,射手位“站位要好，不能被对方怼死，然后疯狂输出伤害即可”。辅助位“保护好己方输出位，做好视野，提供有用信号，因不需要打出各种操作去输出，便有精力给队友提供对面的动向信息”。上述①②简单说了游戏本身，总结来说我理解的游戏攻略是保护输出位输出，及时支援，知晓对面动向以及控制爆发减员对方。<font color="FF0000">③</font>最后简单说说由游戏映射到生活的内容，打撸和王者玩了四五年吧，曾经打撸想着升到30级（满级），也有想过上分等等，但时间和游戏天赋有限也就没后文了，最近基于玩了这么多年的这类游戏就想着在王者农药搞个王者段位就慢慢退游（Slow evacuation game）吧！因此，也就有了想写这篇博文的打算。<font color="FF0000"><u><em>在这个游戏里面见得人很多，觉得主要映射出不同性格和不同心态的不同表现和不同结果的现象。</em></u></font>这也正是我想写的，那些心态和性格不算好的玩家，大部分都defeat，相反那些性格好和心态好的玩家，提升了技术和段位，交到了朋友，游戏特别开心和享受。记得我先前打撸时辅助的那个射手朋友就是性格不算好的，太看重游戏和以自我为中心，段位大概也就一直是白银黄金水平吧，游戏玩的也不是那么快乐等，对比到我一开始玩王者也和他差不多性格，自认为自己玩过打撸比其他人有基础、厉害等，属于自大型，结果就是没上段，游戏不快乐，后面我改善了性格和心态，<strong>从那些游戏队友的结果去联想自己的游戏处境和生活处境，便控制自己遇事不生气不着急并想办法解决，为了不能影响到我整个的生活状态，硬是不能解决也不纠结该放弃就放弃（这件事是经过考虑后才打算放弃，肯定不能轻言放弃），毕竟生活不止眼前的一件事。能开玩笑和被开玩笑，深刻认识到自己是个普通人（会犯错犯傻，也能改改错改善自我）、取我所需的技能以及熟能生巧（practice make prefect）。亲近家人亲戚和朋友，善待值得善待的人与事</strong>etc，不啰嗦了，就这些吧。顺便分享下我王者农药上王者的图片：</p><p><img src="https://raw.githubusercontent.com/TAOTIEC/TAOTIEC.github.io/master/images/%E7%8E%8B%E8%80%85%E5%9B%BE%E7%89%871.png" alt="happy1.png"></p><p><img src="https://raw.githubusercontent.com/TAOTIEC/TAOTIEC.github.io/master/images/%E7%8E%8B%E8%80%85%E5%9B%BE%E7%89%872.png" alt="happy2.png"></p><p><img src="https://raw.githubusercontent.com/TAOTIEC/TAOTIEC.github.io/master/images/%E7%8E%8B%E8%80%85%E5%9B%BE%E7%89%873.png" alt="happy3.png"></p><p><img src="https://raw.githubusercontent.com/TAOTIEC/TAOTIEC.github.io/master/images/%E7%8E%8B%E8%80%85%E5%9B%BE%E7%89%874.png" alt="happy4.png"></p><blockquote><p>​    写在最后，健康游戏，认真生活。</p></blockquote>]]></content>
+      
+      
       <categories>
-        <category>日志</category>
+          
+          <category> Game </category>
+          
       </categories>
-      <tags>
-        <tag>日志</tag>
-      </tags>
-  </entry>
-  <entry>
-    <title><![CDATA[MD_test]]></title>
-    <url>%2F2019%2F05%2F20%2FMD_grammar%2F</url>
-    <content type="text"><![CDATA[1插入图片 2.插入链接 aliyungithub 3.强调 斜体粗体 4.表格 1 2 第一列 一列二格 第二列 二列二格 第三列 三列二格 5.代码 12345#include&lt;stdio.h&gt;int main()&#123; printf(&quot;helloworld!\n&quot;);&#125; 6.列表 first second third 7.字体设置用html语言实现 设置居中 设置颜色 设置大小 设置颜色大小]]></content>
+      
+      
+        <tags>
+            
+            <tag> Game </tag>
+            
+        </tags>
+      
+    </entry>
+    
+    
+    
+    <entry>
+      <title>专业知识的拓展</title>
+      <link href="/2019/06/06/Development-of-professional-knowledge/"/>
+      <url>/2019/06/06/Development-of-professional-knowledge/</url>
+      
+        <content type="html"><![CDATA[<blockquote><p>​        写在前面：下述内容主要涉及计算机网络专业的相关基础知识，是我从网上或书上copy过来或进行总结，纯属为增强个人的知识。若有侵权的地方请您发邮件至<em><a href="mailto:1131020145@qq.com" target="_blank" rel="noopener">1131020145@qq.com</a></em>；若还有错误地方，也请您能指出来，我一并修改，谢谢~！记录的内容很杂乱，请见谅！、</p></blockquote><p>​            SSH（Secure Shell）,是建立在应用层基础上的安全协议。专为远程登录回话和其他网络服务提供安全性的协议。利用SSH协议可以有效防止远程管理过程中的信息泄露问题。适应多种操作系统。<a href="https://baike.baidu.com/link?url=_wwulqms9ALtawt90Mn6vjZ0I0lr8H62IEavM5D0KNjJaGbs76XGJcib1m7yFq5iXzCtW17DWqLw91MCfG6Iea" target="_blank" rel="noopener">原文</a></p>]]></content>
+      
+      
       <categories>
-        <category>MarkDown语法</category>
+          
+          <category> Expand </category>
+          
       </categories>
-      <tags>
-        <tag>MarkDown语法</tag>
-      </tags>
-  </entry>
+      
+      
+        <tags>
+            
+            <tag> Expand </tag>
+            
+        </tags>
+      
+    </entry>
+    
+    
+    
+    <entry>
+      <title>给树莓派(model:3B)装系统后连接VNC图形界面</title>
+      <link href="/2019/06/03/Install-system-for-Raspberry-pie/"/>
+      <url>/2019/06/03/Install-system-for-Raspberry-pie/</url>
+      
+        <content type="html"><![CDATA[<p>​        写在前面：老哥让我买个<font color="FF0000"><strong>树莓派</strong></font>（能装系统的小电脑，在上面写程序，跑程序，比单片机厉害些，嘻嘻）玩玩（Linux C,编程爱好），买了放抽屉里近三年，终于在19.5.28号左右拿出来玩玩，再基于老哥推了VX公众号<font color="FF0000">“树莓派爱好者基地”</font>（绝对适合新手，强推），我又买了外壳、散热片、电源线配件和8GmicroSD卡（合计：板子400 + 配件100 RMB）。时至今日（19.06.03<del>菜的真实囧</del>）搞定了第一个目标：装系统。上图：</p><p><img src="https://raw.githubusercontent.com/TAOTIEC/TAOTIEC.github.io/master/images/Mypie.jpg" alt="Mypie.jpg"></p><p>切正题：这篇博文是写我给pie装sapbrian系统的经历</p><blockquote><p>步骤:（下述仅是我的情况，上述VX公众号里介绍的步骤很简单，因为本质上这个事情也很简单）</p><p>(说下我的难题：蹭同学的<em>校园网</em>和手机数据给笔记本提供网络环境，没有pie–<em>显示屏</em>)</p></blockquote><ol><li><p>将raspbrian–system烧写到（&gt;8G）SD卡中，再将卡插到pie–卡槽。</p></li><li><p>查看pie–IP地址（<em>百度有很多方法</em>）。因为是校园网，路由器行不通，便先借用了朋友的显示屏(HDMI)、键盘(USB)和鼠标(USB)插在pie上，再用手机给pie(WIFI连接)提供网络，最后在显示屏(terminal)上输入ifconfig成功得到pie–IP如图：</p><p><img src="https://raw.githubusercontent.com/TAOTIEC/TAOTIEC.github.io/master/images/PI_ip.png" alt="pie--IP.png"></p></li><li><p>网线连接笔记本和pie,手机热点给笔记本和pie提供网络环境以保证二者在同一局域网段中，打开电源开关。</p></li><li><p>putty软件输入pie–IP，会跳转到命令行界面，再登录pie账号(pi)密码(sapberry)跳到，若想要用vnc图形界面等等相关教程操作在上述强推的VX公众号<font color="FF0000">“树莓派爱好者基地”</font>都有教程（视频标题关键字：ssh,VNC），跟着一步一步很简单。</p></li></ol><blockquote><p>个人背景及其给我造成的问题：</p></blockquote><ul><li>本想细节描述我的“惨况”，suanle，我用的<em>校园网</em>，不能使用路由器去查看pie的IP地址，权限在校园网管理那儿，我莫得囧~</li><li>网上下了残缺的sapbrian-system烧写到SD卡里，结果后续查看pie-IP地址上浪费了很多时间。简单描述成功烧写系统的状况:烧写系统的软件要好几分钟才能系统烧写到SD卡中，当准备好的SD卡插入pie–卡槽并接通电源，<u>（model:3B）<em>pie–电源处会有红灯一直亮起，绿灯无规律闪烁</em></u>(偷偷说下，这一点的内容都是我从JD客服那儿得知的，觉得很有必要写出来，毕竟这个坑了我很多时间）。</li></ul><p>结尾：后续会从“树莓派爱好者基地”、咨询大佬和网络等等方式了解更多些pie–知识，进一步根据配件情况、感兴趣的项目和读懂项目这三点，写下一次的博文。</p>]]></content>
+      
+      
+      <categories>
+          
+          <category> Experience </category>
+          
+      </categories>
+      
+      
+        <tags>
+            
+            <tag> Memorable </tag>
+            
+        </tags>
+      
+    </entry>
+    
+    
+    
+    <entry>
+      <title>搭建博客的经历</title>
+      <link href="/2019/05/27/The%20experience%20of%20building%20a%20blog/"/>
+      <url>/2019/05/27/The%20experience%20of%20building%20a%20blog/</url>
+      
+        <content type="html"><![CDATA[<p>写在前面：老哥提出让我搭建个人技术博客（hexo + github）是在18年，时至19年的5.25左右完成了。刚提出来时，我莽撞地跟着帖子画瓢，却毫无解决问题的能力便放弃了，定为半途放弃！<br>Time and tide wait for no man。<br>19.5.8重新拿出来并决心搞定这件事，写到这儿，我自知我的无能力和爱拖沓两个主要致命缺点！</p><p>这篇博文主要从搭建博客站点（不详写，会推荐网帖）和解决遇见的问题两方面去概述。</p><blockquote><p>一、搭建：<br>1.安装<em>Git工具</em>和<em>Node.js</em>。在（cmd）terminal（位于Nodejs的安装目录）中”npm install -g hexo”安装hexo<br>2.新建工作目录（右击，Git bash here）。”hexo init”初始化，”npm install”安装依赖包，至此本地博客搭建好了，如果上述一切顺利，再hexo g &amp;&amp; hexo s（<a href="http://localhost:4000）本地静态网页便可浏览了" target="_blank" rel="noopener">http://localhost:4000）本地静态网页便可浏览了</a><br>3.部署到Github上。此时，你需要有Github账号和一个域名（我用的阿里云），再将二者相关联（<font color="FF0000">此处是难点，下述“搭建个人技术博客”有说明</font>）。是因为一方面github有提供服务器的作用，也提供一个难记的规范域名(我的:<a href="https://TAOTIEC.github.io),另一方面购买的域名容易让人记住(www.machanghong.net)。">https://TAOTIEC.github.io),另一方面购买的域名容易让人记住(www.machanghong.net)。</a></p></blockquote><p><strong>推荐帖：</strong><br><a href="https://www.jianshu.com/p/05096f07b34c" target="_blank" rel="noopener">搭建个人技术博客</a><br><a href="https://www.jianshu.com/p/f3147a804368" target="_blank" rel="noopener">实用的MarkDown语法</a>MD用来写博文适合不过了<br><a href="https://jingyan.baidu.com/article/da1091fb73d05d027849d632.html" target="_blank" rel="noopener">如何购买阿里云域名</a><br><a href="https://blog.csdn.net/weixin_42693104/article/details/82584849" target="_blank" rel="noopener">注册Github账号及简单使用</a></p><blockquote><p>二、问题：<br>如果仔细按照网帖，并理解的一步步操作，没有太多问题，也就能成功搭建博客，并理解其中的思路。<br>呃，理想和现实不一样。各有各的经历，而我就遇见了折腾我的那些问题<br>1.<em>我的域名被盗号</em>囧我时隔近一年去使用的域名（购买一年的时长），结果被人盗号了。网上找到了解决办法（帖子链接不提供了，我一时找不见），大致是能与github的开发人员（老外，英语）通过邮件方式联系，根据他的要求来证明你是域名的owner即可，嘿嘿建议安装有道词典（英语渣渣的感悟），期间你不用担心你发中文邮件给他。<br>2.”npm install” “npm init” 这两个指令输入有顺序，在这个步骤出现问题（没有package.json包），网上有解决的帖子，主要解决点是输入”hexo init -f”（以网帖为标准）<br>3.头像不显示(next 主题)<br>当我按照“如何个性化配置我心爱的博客时，在添加<em>avatar</em>参数时，由于个人原因而导致对图片路径把握不准确，图像也就不能正常显示，结果在此卡了很久，终究解决了便很开心。<br>4.hexo d出现的问题<br><img src="https://raw.githubusercontent.com/TAOTIEC/TAOTIEC.github.io/master/images/hexo_d.png" alt="hexo_d.png"><br>部署到github（hexo d）上，需要登录账户（就是github的用户名和密码），可我呢？压根没注意这些内容，一路潇洒按着“Enter”键，问题出现很久才意识到并解决了。</p></blockquote><p>至此，静的动的博客也都搞定了，那就来↓ ↓ ↓<br><strong><center>个性化打造心爱的博客：</center></strong></p><p><a href="https://www.jianshu.com/p/f054333ac9e6" target="_blank" rel="noopener">个性化配置next主题的教程</a></p><p>写在最后：<br>针对我自己无能力和爱拖沓的主要缺点来说：根据需要，带着思考去好好利用网帖解决问题，提升能力<br>毕竟，我的菜的很普通，我出现的问题都是很普遍的问题，网上一大片的解决教程。<br>emmm，期待和欢迎大家能来我的博客（升级ing）<a href="https://www.machanghong.net.cn/" target="_blank" rel="noopener">Martin’s Blog</a>，Thanks</p>]]></content>
+      
+      
+      <categories>
+          
+          <category> Experience </category>
+          
+      </categories>
+      
+      
+        <tags>
+            
+            <tag> Memorable </tag>
+            
+        </tags>
+      
+    </entry>
+    
+    
+    
+    <entry>
+      <title>funny day</title>
+      <link href="/2019/05/21/Bestwish/"/>
+      <url>/2019/05/21/Bestwish/</url>
+      
+        <content type="html"><![CDATA[<script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script><div id="hbe-security">  <div class="hbe-input-container">  <input type="password" class="hbe-form-control" id="pass" placeholder="Please enter the password to read the blog." />    <label for="pass">Please enter the password to read the blog.</label>    <div class="bottom-line"></div>  </div></div><div id="decryptionError" style="display: none;">Incorrect Password!</div><div id="noContentError" style="display: none;">No content to display!</div><div id="encrypt-blog" style="display:none">U2FsdGVkX1/ID0a8bvMGjM2iI0qQ5f4VDilF5yYJsYyldJo8xOMjrMOrsHOAGKQ0mQaLdCmXgdyDyTz5ZlTjRTLi/KoWJcg4NkCnZlF11CG6WTDvOP75ivMLpaf4ZOOQrd3s13I97mWFnY+o4/idg50Ief2N00Yyasm0re1z3WaScMac4ykQGBsAhu6DT14N</div><script src="/lib/crypto-js.js"></script><script src="/lib/blog-encrypt.js"></script><link href="/css/blog-encrypt.css" rel="stylesheet" type="text/css">]]></content>
+      
+      
+      <categories>
+          
+          <category> 日志 </category>
+          
+      </categories>
+      
+      
+        <tags>
+            
+            <tag> 日志 </tag>
+            
+        </tags>
+      
+    </entry>
+    
+    
+  
+  
 </search>
